@@ -1,6 +1,8 @@
 {
-    "name": "pxt-DFRobot_ASR",
+    "name": "ASR",
+    "version": "1.0.0",
     "description": "",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -23,5 +25,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

@@ -4,9 +4,9 @@
     "ASR.ModeEnum.BUTTON|block": "按钮模式",
     "ASR.MicrophoneModeEnum.MIC|block": "默认MIC",
     "ASR.MicrophoneModeEnum.MONO|block": "外部音频",
-    "ASR.begin|block": "语音识别模块 初始化",
+    "ASR.begin|block": "语音识别模块 初始化 识别模式为|%enum1|麦克风模式为|%enum2",
     "ASR.start|block": "设置完成 开始识别",
-    "ASR.addCommand|block": "向模块添加词条",
+    "ASR.addCommand|block": "向模块添加词条|%words|词条编号为|%idNum",
     "ASR.read|block": "识别一次语音 获取编号",
-    "ASR.setI2CAddr|block": "设置模块的i2c地址(掉电重启后生效)"
+    "ASR.setI2CAddr|block": "设置模块的i2c地址(掉电重启后生效)|%addr"
 }

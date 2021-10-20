@@ -92,7 +92,7 @@ namespace ASR {
     /**
      * TODO: 语音模块开始识别
      */
-    //% blockId=start block
+    //% blockId=start block="Start Speech Recognition"
     export function start(): void {
         writeValue(ASR_START)
         basic.pause(50)
@@ -104,7 +104,7 @@ namespace ASR {
      * @param idNum  词条的识别号
      * @return bool值 成功返回 true, 失败返回 false
      */
-    //% blockId=addCommand block
+    //% blockId=addCommand block="Add entries to modules|%words|The entry number is|%idNum"
     export function addCommand(words: string, idNum: number): boolean {
         let len = words.length, lenTemp, ret = true
         if (len > 72) 
@@ -145,7 +145,7 @@ namespace ASR {
      * TODO: 读取识别到的词条
      * @return 返回代表词条的识别号
      */
-    //% blockId=read block
+    //% blockId=read block="Recognition of a voice acquisition number"
     export function read(): number {
         let result = 0xFF
         switch (_mode) {
@@ -188,7 +188,7 @@ namespace ASR {
      * TODO: 设置模块的i2c地址(掉电重启后生效)
      * @param addr  需要设置的i2c地址(0~127)
      */
-    //% blockId=setI2CAddr block
+    //% blockId=setI2CAddr block="Set the I2C address of the module (take effect after the power failure and restart)|%addr"
     export function setI2CAddr(addr: number): boolean {
         let ret = true
         if (addr > 127)
