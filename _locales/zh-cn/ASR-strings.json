@@ -1,0 +1,12 @@
+{
+    "ASR.ModeEnum.LOOP|block": "循环模式",
+    "ASR.ModeEnum.PASSWORD|block": "指令模式",
+    "ASR.ModeEnum.BUTTON|block": "按钮模式",
+    "ASR.MicrophoneModeEnum.MIC|block": "默认MIC",
+    "ASR.MicrophoneModeEnum.MONO|block": "外部音频",
+    "ASR.begin|block": "语音识别模块 初始化",
+    "ASR.start|block": "设置完成 开始识别",
+    "ASR.addCommand|block": "向模块添加词条",
+    "ASR.read|block": "识别一次语音 获取编号",
+    "ASR.setI2CAddr|block": "设置模块的i2c地址(掉电重启后生效)"
+}

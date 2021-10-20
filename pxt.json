@@ -1,5 +1,5 @@
 {
-    "name": "pxt-test",
+    "name": "pxt-DFRobot_ASR",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -10,7 +10,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "custom.ts"
+        "ASR.ts",
+        "_locales/zh-cn/ASR-strings.json"
     ],
     "testFiles": [
         "test.ts"
